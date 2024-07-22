@@ -1,4 +1,4 @@
-name: Buildozer action
+name: Buildozer custom action
 description: Build Python package with Kivy Buildozer
 author: Artem Bulgakov
 branding:
