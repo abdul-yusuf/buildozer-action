@@ -15,7 +15,7 @@ RUN sudo apt-get update && \
 RUN sudo add-apt-repository ppa:openjdk-r/ppa
 RUN sudo apt update
 RUN sudo apt-get -y install openjdk-17-jdk
-RUN sudo apt-get -y install python3-pip autoconf libtool pkg-config zlibig-dev libncurses5-dev libncursesw5-dev libtinfo5 cmake libffi-dev libssl-dev
+# RUN sudo apt-get -y install python3-pip autoconf libtool pkg-config zlibig-dev libncurses5-dev libncursesw5-dev libtinfo5 cmake libffi-dev libssl-dev
 
 # Remove a lot of warnings
 # sudo: setrlimit(RLIMIT_CORE): Operation not permitted
